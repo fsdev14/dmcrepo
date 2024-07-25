@@ -1,57 +1,32 @@
-PS C:\Projects\workspace\liteui-v1> npm install grunt@0.4.5 --save-dev
-npm warn old lockfile
-npm warn old lockfile The package-lock.json file was created with an old version of npm,
-npm warn old lockfile so supplemental metadata must be fetched from the registry.
-npm warn old lockfile
-npm warn old lockfile This is a one-time fix-up, please be patient...
-npm warn old lockfile
+PS C:\Projects\workspace\LUI_BAU_D7> npm install angular@1.6.6
+⠇^CTerminate batch job (Y/N)? Y
+PS C:\Projects\workspace\LUI_BAU_D7> 1.8.4npm install angular@1.6.6^C
+PS C:\Projects\workspace\LUI_BAU_D7> npm install angular@1.6.6
 npm warn deprecated osenv@0.1.5: This package is no longer supported.
-npm warn deprecated ini@1.3.5: Please update to ini >=1.3.6 to avoid a prototype pollution issue
 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by 
 a key value, which is much more comprehensive and powerful.
-npm warn deprecated domelementtype@1.3.0: update to domelementtype@1.3.1
-npm warn deprecated npmlog@4.1.2: This package is no longer supported.
-npm warn deprecated har-validator@5.0.3: this library is no longer supported
-npm warn deprecated glob@5.0.15: Glob versions prior to v9 are no longer supported
-npm warn deprecated chokidar@1.7.0: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
-npm warn deprecated cryptiles@2.0.5: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
 npm warn deprecated graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
-npm warn deprecated glob@7.1.2: Glob versions prior to v9 are no longer supported
-npm warn deprecated glob@7.1.2: Glob versions prior to v9 are no longer supported
-npm warn deprecated glob@7.1.2: Glob versions prior to v9 are no longer supported
-npm warn deprecated glob@7.1.2: Glob versions prior to v9 are no longer supported
-npm warn deprecated are-we-there-yet@1.1.5: This package is no longer supported.
+npm warn deprecated glob@7.1.7: Glob versions prior to v9 are no longer supported
 npm warn deprecated rimraf@2.2.8: Rimraf versions prior to v4 are no longer supported
-npm warn deprecated phantom@4.0.12: This package is no longer maintained
-npm warn deprecated boom@2.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
 npm warn deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
 npm warn deprecated minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
-npm warn deprecated sntp@1.0.9: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
-npm warn deprecated phantomjs-prebuilt@2.1.16: this package is now deprecated
-npm warn deprecated hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
-npm warn deprecated request@2.81.0: request has been deprecated, see https://github.com/request/request/issues/3142
 npm warn deprecated glob@3.1.21: Glob versions prior to v9 are no longer supported
-npm warn deprecated gauge@2.7.4: This package is no longer supported.
-npm warn deprecated request@2.87.0: request has been deprecated, see https://github.com/request/request/issues/3142
-npm warn deprecated har-validator@4.2.1: this library is no longer supported
-npm warn deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
 npm warn deprecated glob@3.2.11: Glob versions prior to v9 are no longer supported
-npm warn deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)      
-npm warn deprecated fstream@1.0.11: This package is no longer supported.
 npm warn deprecated coffee-script@1.3.3: CoffeeScript on NPM has moved to "coffeescript" (no hyphen)
 npm warn deprecated coffee-script@1.12.7: CoffeeScript on NPM has moved to "coffeescript" (no hyphen)
-npm warn deprecated hawk@3.1.3: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
-npm warn deprecated tar@2.2.1: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
-npm warn deprecated iltorb@1.3.10: The zlib module provides APIs for brotli compression/decompression starting with Node.js v10.16.0, please use it over iltorb
-npm warn deprecated core-js@2.5.7: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual 
-version of core-js.
-npm warn deprecated unicode-5.2.0@0.7.5: Use @unicode/unicode-5.2.0 instead.
+npm warn deprecated angular@1.6.6: For the actively supported Angular, see https://www.npmjs.com/package/@angular/core. AngularJS support has officially ended. For extended AngularJS 
+support options, see https://goo.gle/angularjs-path-forward.
 
-added 407 packages, and audited 408 packages in 17s
+added 315 packages, and audited 316 packages in 16s
 
-63 vulnerabilities (5 low, 13 moderate, 33 high, 12 critical)
+30 packages are looking for funding
+  run `npm fund` for details
+26 vulnerabilities (1 low, 1 moderate, 17 high, 7 critical)
 
 To address issues that do not require attention, run:
+  npm audit fix
 
 To address all issues possible (including breaking changes), run:
   npm audit fix --force
@@ -60,161 +35,90 @@ Some issues need review, and may require choosing
 a different dependency.
 
 Run `npm audit` for details.
-grunt : The term 'grunt' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that   
-the path is correct and try again.
-At line:1 char:1
-+ grunt
-+ ~~~~~
-    + CategoryInfo          : ObjectNotFound: (grunt:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
- 
-grunt : The term 'grunt' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that   
-the path is correct and try again.
-At line:1 char:1
-+ grunt
-+ ~~~~~
-    + FullyQualifiedErrorId : CommandNotFoundException
- 
+PS C:\Projects\workspace\LUI_BAU_D7> npm install grunt-contrib-cssmin --save-dev
 
-added 56 packages in 8s
+added 3 packages, and audited 319 packages in 6s
 
-5 packages are looking for funding
+30 packages are looking for funding
   run `npm fund` for details
-PS C:\Projects\workspace\liteui-v1> npm fund
-liteui@1.8.4
+26 vulnerabilities (1 low, 1 moderate, 16 high, 8 critical)
 
-PS C:\Projects\workspace\liteui-v1> grunt
-Running "jshint:files" (jshint) task
-   js/app.js
-    123 |    ;
-             ^ Unnecessary semicolon.
+To address issues that do not require attention, run:
+  npm audit fix
 
->> 1 error in 2 files
-Warning: Task "jshint:files" failed. Use --force to continue.
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
 
-Aborted due to warnings.
-PS C:\Projects\workspace\liteui-v1> grunt
-Running "jshint:files" (jshint) task
-   js/app.js
-    123 |    ;
-             ^ Unnecessary semicolon.
+Some issues need review, and may require choosing
+a different dependency.
 
->> 1 error in 2 files
-Warning: Task "jshint:files" failed. Use --force to continue.
-
-Aborted due to warnings.
-PS C:\Projects\workspace\liteui-v1> grunt --force
-Running "jshint:files" (jshint) task
-
-   js/app.js
-    123 |    ;
-             ^ Unnecessary semicolon.
-
->> 1 error in 2 files
-Warning: Task "jshint:files" failed. Used --force, continuing.
-
-Running "concat:dist" (concat) task
-
-Running "uglify:dist" (uglify) task
-JS_Parse_Error [SyntaxError]: Unexpected token name «of», expected punc «;»
-    at JS_Parse_Error.get (<anonymous>:71:23)
-    at getStackString (node:internal/util/inspect:1241:37)
-    at formatError (node:internal/util/inspect:1370:15)
-    at formatRaw (node:internal/util/inspect:986:14)
-    at formatValue (node:internal/util/inspect:841:10)
-    at inspect (node:internal/util/inspect:365:10)
-    at formatWithOptionsInternal (node:internal/util/inspect:2304:40)
-    at formatWithOptions (node:internal/util/inspect:2166:10)
-    at console.value (node:internal/console/constructor:349:14)
-    at console.log (node:internal/console/constructor:386:61)
-    at C:\Projects\workspace\liteui-v1\node_modules\grunt-contrib-uglify\tasks\uglify.js:144:17
-    at Array.forEach (<anonymous>:null:null)
-    at Object.<anonymous> (C:\Projects\workspace\liteui-v1\node_modules\grunt-contrib-uglify\tasks\uglify.js:78:16)
-    at Object.<anonymous> (C:\Projects\workspace\liteui-v1\node_modules\grunt\lib\grunt\task.js:264:15)
-    at Object.thisTask.fn (C:\Projects\workspace\liteui-v1\node_modules\grunt\lib\grunt\task.js:82:16)
-    at Object.<anonymous> (C:\Projects\workspace\liteui-v1\node_modules\grunt\lib\util\task.js:301:30)
-    at Task.runTaskFn (C:\Projects\workspace\liteui-v1\node_modules\grunt\lib\util\task.js:251:24)
-    at Task.<anonymous> (C:\Projects\workspace\liteui-v1\node_modules\grunt\lib\util\task.js:300:12)
-    at C:\Projects\workspace\liteui-v1\node_modules\grunt\lib\util\task.js:227:11
-    at processTicksAndRejections (node:internal/process/task_queues:77:11)
- {
-  filename: 'app.js',
-  line: 2387,
-  col: 34,
-  pos: 101240
-}
->> Uglifying source dist/tmp/js/app.js failed.
-Warning: Uglification failed.
-Unexpected token name «of», expected punc «;».
-Line 2387 in dist/tmp/js/app.js
- Used --force, continuing.
-Warning: Cannot read properties of undefined (reading 'min') Used --force, continuing.
-
-Running "cssmin:css" (cssmin) task
-File dist/tmp/css/jqueryTable.min.css created.
-File dist/tmp/css/style.min.css created.
-File css/alpaca/alpaca.min.css created.
-
-Running "replace:dist" (replace) task
->> Unable to match 1 pattern, remember for simple matches (String) we are using the prefix @@ for replacement lookup.
->> 0 replacements in 0 files.
-
-Running "compress:dist" (compress) task
->> Compressed 6 files.
-
-Done, but with warnings.
-PS C:\Projects\workspace\liteui-v1> grunt --force
+Run `npm audit` for details.
+PS C:\Projects\workspace\LUI_BAU_D7> grunt
 Running "jshint:files" (jshint) task
 >> 2 files lint free.
 
 Running "concat:dist" (concat) task
 
 Running "uglify:dist" (uglify) task
-JS_Parse_Error [SyntaxError]: Unexpected token name «of», expected punc «;»
-    at JS_Parse_Error.get (<anonymous>:71:23)
-    at getStackString (node:internal/util/inspect:1241:37)
-    at formatError (node:internal/util/inspect:1370:15)
-    at formatRaw (node:internal/util/inspect:986:14)
-    at formatValue (node:internal/util/inspect:841:10)
-    at inspect (node:internal/util/inspect:365:10)
-    at formatWithOptionsInternal (node:internal/util/inspect:2304:40)
-    at formatWithOptions (node:internal/util/inspect:2166:10)
-    at console.value (node:internal/console/constructor:349:14)
-    at console.log (node:internal/console/constructor:386:61)
-    at C:\Projects\workspace\liteui-v1\node_modules\grunt-contrib-uglify\tasks\uglify.js:144:17
+JS_Parse_Error [SyntaxError]: Calling delete on expression not allowed in strict mode
+    at js_error (<anonymous>:3135:11)
+    at croak (<anonymous>:3659:9)
+    at token_error (<anonymous>:3667:9)
+    at make_unary (<anonymous>:5321:17)
+    at maybe_unary (<anonymous>:5296:22)
+    at expr_ops (<anonymous>:5346:24)
+    at maybe_conditional (<anonymous>:5351:20)
+    at maybe_assign (<anonymous>:5431:20)
+    at expression (<anonymous>:5457:24)
+    at simple_statement (<anonymous>:3951:20)
+    at eval (<anonymous>:3751:20)
+    at eval (<anonymous>:3714:31)
+    at block_ (<anonymous>:4568:20)
+    at function_ (<anonymous>:4317:20)
+    at eval (<anonymous>:3862:50)
+    at eval (<anonymous>:3714:31)
+    at block_ (<anonymous>:4568:20)
+    at function_ (<anonymous>:4317:20)
+    at expr_atom (<anonymous>:4828:24)
+    at maybe_unary (<anonymous>:5301:19)
+    at expr_ops (<anonymous>:5346:24)
+    at maybe_conditional (<anonymous>:5351:20)
+    at maybe_assign (<anonymous>:5431:20)
+    at expression (<anonymous>:5457:24)
+    at expr_atom (<anonymous>:4780:26)
+    at maybe_unary (<anonymous>:5301:19)
+    at expr_ops (<anonymous>:5346:24)
+    at maybe_conditional (<anonymous>:5351:20)
+    at maybe_assign (<anonymous>:5431:20)
+    at expression (<anonymous>:5457:24)
+    at simple_statement (<anonymous>:3951:20)
+    at eval (<anonymous>:3804:24)
+    at eval (<anonymous>:3714:31)
+    at eval (<anonymous>:5492:23)
+    at parse (<anonymous>:5503:6)
+    at Object.minify (<anonymous>:25004:53)
+    at Object.exports.minify (C:\Projects\workspace\LUI_BAU_D7\node_modules\grunt-contrib-uglify\tasks\lib\uglify.js:124:27)
+    at C:\Projects\workspace\LUI_BAU_D7\node_modules\grunt-contrib-uglify\tasks\uglify.js:142:25
     at Array.forEach (<anonymous>:null:null)
-    at Object.<anonymous> (C:\Projects\workspace\liteui-v1\node_modules\grunt-contrib-uglify\tasks\uglify.js:78:16)
-    at Object.<anonymous> (C:\Projects\workspace\liteui-v1\node_modules\grunt\lib\grunt\task.js:264:15)
-    at Object.thisTask.fn (C:\Projects\workspace\liteui-v1\node_modules\grunt\lib\grunt\task.js:82:16)
-    at Object.<anonymous> (C:\Projects\workspace\liteui-v1\node_modules\grunt\lib\util\task.js:301:30)
-    at Task.runTaskFn (C:\Projects\workspace\liteui-v1\node_modules\grunt\lib\util\task.js:251:24)
-    at Task.<anonymous> (C:\Projects\workspace\liteui-v1\node_modules\grunt\lib\util\task.js:300:12)
-    at C:\Projects\workspace\liteui-v1\node_modules\grunt\lib\util\task.js:227:11
+    at Object.<anonymous> (C:\Projects\workspace\LUI_BAU_D7\node_modules\grunt-contrib-uglify\tasks\uglify.js:78:16)
+    at Object.<anonymous> (C:\Projects\workspace\LUI_BAU_D7\node_modules\grunt\lib\grunt\task.js:252:15)
+    at Object.thisTask.fn (C:\Projects\workspace\LUI_BAU_D7\node_modules\grunt\lib\grunt\task.js:70:16)
+    at Object.<anonymous> (C:\Projects\workspace\LUI_BAU_D7\node_modules\grunt\lib\util\task.js:294:30)
+    at Task.runTaskFn (C:\Projects\workspace\LUI_BAU_D7\node_modules\grunt\lib\util\task.js:244:24)
+    at Task.<anonymous> (C:\Projects\workspace\LUI_BAU_D7\node_modules\grunt\lib\util\task.js:293:12)
+    at C:\Projects\workspace\LUI_BAU_D7\node_modules\grunt\lib\util\task.js:220:11
     at processTicksAndRejections (node:internal/process/task_queues:77:11)
  {
-  filename: 'app.js',
-  line: 2387,
-  col: 34,
-  pos: 101240
+  filename: '../../../js/lib/custom-plugins/edittableTable.js',
+  line: 99,
+  col: 19,
+  pos: 4568
 }
->> Uglifying source dist/tmp/js/app.js failed.
+>> Uglifying source js/lib/custom-plugins/jqueryTable.js,js/lib/custom-plugins/edittableTable.js,js/lib/custom-plugins/MessageCallBack.js failed.
 Warning: Uglification failed.
-Unexpected token name «of», expected punc «;».
-Line 2387 in dist/tmp/js/app.js
- Used --force, continuing.
-Warning: Cannot read properties of undefined (reading 'min') Used --force, continuing.
+Calling delete on expression not allowed in strict mode.
+Line 99 in js/lib/custom-plugins/jqueryTable.js,js/lib/custom-plugins/edittableTable.js,js/lib/custom-plugins/MessageCallBack.js
+ Use --force to continue.
 
-Running "cssmin:css" (cssmin) task
-File dist/tmp/css/jqueryTable.min.css created.
-File dist/tmp/css/style.min.css created.
-File css/alpaca/alpaca.min.css created.
-
-Running "replace:dist" (replace) task
->> Unable to match 1 pattern, remember for simple matches (String) we are using the prefix @@ for replacement lookup.
->> 0 replacements in 0 files.
-
-Running "compress:dist" (compress) task
->> Compressed 6 files.
-
-Done, but with warnings.
-PS C:\Projects\workspace\liteui-v1> 
+Aborted due to warnings.
+PS C:\Projects\workspace\LUI_BAU_D7> 
