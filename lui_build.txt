@@ -8,12 +8,13 @@ npm install angular@1.6.6
 npm install angular@1.8.4
 npm install angular@1.8.0
 
-npm install grunt@VERSION
+npm install grunt@1.0.4
 
  npm install angular-websocket --save
 
-
+npm install angular-websocket --save
 npm install grunt-contrib-cssmin --save-dev
+
 npm install grunt-contrib-clean --save-dev
 npm install grunt-contrib-compress --save-dev
 npm install grunt-contrib-concat --save-dev
@@ -23,6 +24,10 @@ npm install grunt-contrib-jshint --save-dev
 npm install grunt-contrib-uglify --save-dev
 npm install grunt-html2js --save-dev
 npm install grunt-replace --save-dev
+npm install angular-websocket --save
+npm install angular-websocket --save-dev
+
+npm install angular-cli --save
 
 PS C:\Projects\workspace\LUI_BAU_D7> npm install angular@1.8.0
 npm warn deprecated osenv@0.1.5: This package is no longer supported.
